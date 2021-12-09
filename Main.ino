@@ -38,8 +38,6 @@ void loop() {
     int x = analogRead(A0);
     int y = analogRead(A1);
 
-    //Serial.println(x + " " + y);
-    Serial.println("Hello world");
     Serial.print(X(x));
     Serial.print(", ");
     Serial.println(Y(y));
