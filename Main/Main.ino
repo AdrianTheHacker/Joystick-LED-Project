@@ -42,13 +42,13 @@ int Row3[] = {LED7, LED8, LED9};
 // Determines where on a 3x3 grid the horizontal axis of the joystick position is
 int X(int numX) {
     int ledX;
-    // Box one
+    // Box ones X
     if(numX <= xNum) {
         ledX = 1;
-    // Box two
+    // Box twos X
     } else if(numX > xNum and numX <= xNum2) {
         ledX = 2;
-    // Box three
+    // Box threes X
     } else if(numX > xNum2 and numX <= xNum3) {
         ledX = 3;
     }
@@ -58,10 +58,13 @@ int X(int numX) {
 // Determines where on a 3x3 grid the vertical axis of the joystick position is
 int Y(int numY) {
     int ledY;
+    // Box ones Y
     if(numY <= yNum) {
         ledY = 1;
+    // Box twos Y
     } else if(numY > yNum and numY <= yNum2) {
         ledY = 2;
+    // Box threes Y
     } else if(numY > yNum2 and numY <= yNum3) {
         ledY = 3;
     }
