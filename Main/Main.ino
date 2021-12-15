@@ -23,6 +23,7 @@ const float yNum = range / rows;
 const float yNum2 = yNum + yNum;
 const float yNum3 = yNum2 + yNum;
 
+// Debugging variables used to reference specific LEDs
 /*
 const int LED1 = 2;
 const int LED2 = 3;
