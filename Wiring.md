@@ -10,7 +10,7 @@ LED:
         LLL
         LLL
         LLL
-    2. Wire anodes of the LEDs to pins 3-11
+    2. Wire anodes of the LEDs to pins 3-10
     3. Wire cathodes to ground in series with a 330ohm resitor
 
 
