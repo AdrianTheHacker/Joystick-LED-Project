@@ -1,2 +1,3 @@
 # Joystick-LED-Project
-This is an arduino project bruv. The joystick will place light up an LED based on where the joystick is angled.
+This is a project I made while taking Grade 10 Computer Technology at my school (TEJ201).
+It uses an arduino and a joystick to control a 3x3 array of LEDs.
